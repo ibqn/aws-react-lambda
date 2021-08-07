@@ -1,1 +1,24 @@
-{}
+{
+  "auth": {
+    "awsreactlambda6a5f929c": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "awsreactlambda6a5f929cPostConfirmation",
+          "triggerProvider": "Cognito",
+          "attributes": ["Arn", "Name"]
+        }
+      ],
+      "customAuth": false
+    }
+  },
+  "function": {
+    "awsreactlambda6a5f929cPostConfirmation": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  }
+}

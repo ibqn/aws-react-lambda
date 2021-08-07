@@ -10,6 +10,16 @@
       "StackName": "amplify-awsreactlambda-dev-00544",
       "StackId": "arn:aws:cloudformation:eu-central-1:518776150581:stack/amplify-awsreactlambda-dev-00544/4df9d700-f639-11eb-863a-0a9f22aa9aa8",
       "AmplifyAppId": "d2oqmsb6zxilu8"
+    },
+    "categories": {
+      "function": {
+        "awsreactlambda6a5f929cPostConfirmation": {
+          "GROUP": "Admin"
+        }
+      },
+      "auth": {
+        "awsreactlambda6a5f929c": {}
+      }
     }
   }
 }
