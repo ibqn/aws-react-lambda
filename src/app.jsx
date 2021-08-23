@@ -1,5 +1,5 @@
 const App = () => {
-  return <div>amplify app</div>
+  return <div>react with aws amplify</div>
 }
 
 export default App
